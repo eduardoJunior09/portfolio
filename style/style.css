@@ -1,0 +1,89 @@
+@import "nav.css";
+@import "header.css";
+@import "mobile-style.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #0d0d0d;
+  --color-2: #18222b;
+  --color-3: #2c3540;
+  --color-4: #e5e5e5;
+  --color-5: #408080;
+  --color-6: #2594d9;
+  --font-nav: "Roboto", sans-serif;
+  --font-principal: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--color-1);
+  color: var(--color-4);
+}
+
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  font-family: var(--font-principal);
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--color-4);
+}
+
+.persona-info {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 10px;
+}
+
+.profile-picture img {
+  width: 200px;
+}
+
+.text {
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.info-data {
+  display: flex;
+  align-items: start;
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.information-title {
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+.cv-button button {
+  width: 200px;
+  height: 30px;
+  margin-top: 15px;
+  border: 2px solid var(--color-6);
+  cursor: pointer;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--color-6);
+  background-color: transparent;
+}
+
+.description {
+  margin: 0 20px;
+}

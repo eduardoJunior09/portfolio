@@ -1,0 +1,42 @@
+@media (max-width: 425px) {
+  nav {
+    height: 10px;
+    font-size: 10px;
+  }
+  nav li {
+    margin-right: 5px;
+  }
+  .wallpaper,
+  .wallpaper img {
+    height: 300px;
+  }
+  .header-intro {
+    width: 100%;
+    max-height: 300px;
+    top: 30px;
+  }
+
+  .intro-text {
+    margin-top: 40px;
+    margin-left: 40px;
+    h1 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .media-icons {
+    display: flex;
+    margin: 25px 40px;
+  }
+
+  .circle-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .icons {
+    font-size: 15px;
+  }
+}
