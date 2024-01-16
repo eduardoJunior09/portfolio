@@ -26,7 +26,6 @@
       font-size: 12px;
     }
   }
-
   .media-icons {
     display: flex;
     margin: 25px 40px;
@@ -39,4 +38,44 @@
   .icons {
     font-size: 15px;
   }
+
+  /*MAIN*/
+  .about {
+    font-size: 15px;
+  }
+  .persona-info{
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px;
+    grid-template-columns: 1fr;
+  }
+
+  .profile-picture img {
+    display: none;
+  }
+
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+  }
+
+  .text {
+    text-align: justify;
+    font-size: 15px;
+  }
+  
+  .info-data {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  
+  .info-data a{
+    font-size: 7px;
+  }
+  .information-title {
+    font-weight: bolder;
+    margin-right: 5px;
+  }
+  
 }
