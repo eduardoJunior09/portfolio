@@ -1,49 +1,26 @@
-@media (max-width: 425px) {
+@media (max-width: 768px) {
+/*Cabeçalho*/
   nav {
-    height: 10px;
+    height: 70px;
     font-size: 10px;
   }
+
   nav li {
     margin-right: 5px;
   }
+
   .wallpaper,
   .wallpaper img {
-    height: 300px;
-  }
-  .header-intro {
-    width: 100%;
-    max-height: 300px;
-    top: 30px;
+    width: 100vw;
   }
 
-  .intro-text {
-    margin-top: 40px;
-    margin-left: 40px;
-    h1 {
-      font-size: 25px;
-    }
-    p {
-      font-size: 12px;
-    }
-  }
-  .media-icons {
-    display: flex;
-    margin: 25px 40px;
-  }
-
-  .circle-icon {
-    width: 30px;
-    height: 30px;
-  }
-  .icons {
-    font-size: 15px;
-  }
-
-  /*MAIN*/
+  /* MAIN */
   .about {
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
-  .persona-info{
+
+  .persona-info {
     width: 100%;
     margin: 5px auto;
     padding: 5px;
@@ -57,25 +34,114 @@
   .profile-picture {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+  }
+
+  .text {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .info-data {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .information-title {
+    font-weight: bolder;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  /*Cabeçalho*/
+  nav {
+    height: 50px;
+    font-size: 10px;
+  }
+
+  nav li {
+    margin-right: 5px;
+  }
+
+  .wallpaper,
+  .wallpaper img {
+    height: 400px;
+  }
+
+  .header-intro {
+    width: 100%;
+    max-height: 300px;
+    top: 110px;
+  }
+
+  .intro-text {
+    margin-top: 40px;
+    margin-left: 40px;
+
+    h1 {
+      font-size: 30px;
+      font-weight: bolder;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .media-icons {
+    display: flex;
+    margin: 30px 40px;
+  }
+
+  .circle-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icons {
+    font-size: 25px;
+  }
+
+  /* MAIN */
+  .about {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .persona-info {
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px;
+    grid-template-columns: 1fr;
+  }
+
+  .profile-picture img {
+    display: none;
+  }
+
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
   }
 
   .text {
     text-align: justify;
     font-size: 15px;
   }
-  
+
   .info-data {
     font-size: 15px;
     margin: 10px 0;
   }
-  
-  .info-data a{
-    font-size: 7px;
+
+  .info-data a {
+    font-size: 12px;
   }
+
   .information-title {
     font-weight: bolder;
     margin-right: 5px;
   }
-  
 }

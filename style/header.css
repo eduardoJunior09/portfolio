@@ -25,10 +25,12 @@
 .intro-text {
   margin-top: 100px;
   margin-left: 120px;
+
   h1 {
     font-size: 50px;
     font-weight: 300;
   }
+
   p {
     font-size: 25px;
     letter-spacing: 5px;
@@ -59,12 +61,13 @@
   color: var(--color-4);
 }
 
-icons {
+.icons {
   font-size: 20px;
-}.
+}
 
 .circle-icon:hover,
 .icons:hover {
+  cursor: pointer;
   border-color: var(--color-6);
   color: var(--color-6);
 }

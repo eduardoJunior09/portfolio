@@ -67,9 +67,25 @@ main {
   margin: 10px 0;
 }
 
+.info-data a {
+  color: var(--color-6);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  font-weight: bolder;
+}
+
 .information-title {
   font-weight: bolder;
   margin-right: 5px;
+}
+
+.description {
+  margin: 0 20px;
 }
 
 .cv-button button {
@@ -84,6 +100,10 @@ main {
   background-color: transparent;
 }
 
-.description {
-  margin: 0 20px;
+.cv-button button:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+  border: 2px solid var(--color-4);
+  color: var(--color-4);
+  background-color: var(--color-6);
 }
