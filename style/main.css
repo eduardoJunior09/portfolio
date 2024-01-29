@@ -1,5 +1,5 @@
 /* Estilo para a seção principal */
-main {
+.container-main {
   width: 100%;
   height: auto;
   margin-top: 40px;
@@ -10,12 +10,6 @@ main {
 .about {
   margin-bottom: 20px;
   color: var(--color-4);
-}
-
-.about h2 {
-  font-size: 28px;
-  text-align: center;
-  font-weight: bold;
 }
 
 /* Estilo para a seção de informações pessoais */
