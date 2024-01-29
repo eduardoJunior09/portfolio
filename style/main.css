@@ -1,0 +1,96 @@
+/* Estilo para a seção principal */
+main {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  font-family: var(--font-principal);
+}
+
+/* Estilo para o título da seção "Sobre Mim" */
+.about {
+  margin-bottom: 20px;
+  color: var(--color-4);
+}
+
+.about h2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Estilo para a seção de informações pessoais */
+.persona-info {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 10px;
+}
+
+/* Estilo para a imagem de perfil */
+.profile-picture img {
+  width: 200px;
+}
+
+/* Estilo para o texto justificado */
+.text {
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para dados de informação */
+.info-data {
+  display: flex;
+  align-items: start;
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+/* Estilo para links dentro dos dados de informação */
+.info-data a {
+  color: var(--color-6);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Efeito hover para links */
+.info-data a:hover,
+.info-data a:active {
+  font-weight: bolder;
+}
+
+/* Estilo para os títulos das informações */
+.information-title {
+  font-weight: bolder;
+  margin-right: 5px;
+}
+
+/* Estilo para a descrição */
+.description {
+  margin: 0 20px;
+}
+
+/* Estilo para o botão do currículo */
+.cv-button button {
+  width: 200px;
+  height: 30px;
+  margin-top: 15px;
+  border: 2px solid var(--color-6);
+  cursor: pointer;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--color-6);
+  background-color: transparent;
+}
+
+/* Efeito hover para o botão do currículo */
+.cv-button button:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+  border: 2px solid var(--color-4);
+  color: var(--color-4);
+  background-color: var(--color-6);
+}

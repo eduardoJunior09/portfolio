@@ -1,5 +1,6 @@
 @import "nav.css";
 @import "header.css";
+@import "main.css";
 @import "mobile-style.css";
 
 * {
@@ -19,91 +20,83 @@
   --font-principal: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: var(--color-1);
+  background: rgb(2, 1, 6);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 1, 6, 1) 29%,
+    rgba(18, 25, 38, 1) 63%,
+    rgba(19, 35, 69, 1) 88%
+  );
   color: var(--color-4);
 }
 
-main {
+/*Habilidades*/
+.container-skil {
   width: 100%;
-  height: auto;
-  margin-top: 40px;
-  font-family: var(--font-principal);
+  max-width: 1200px;
+  height: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.about {
-  width: 100%;
-  height: auto;
+.header-skil {
+  font-family: var(--font-principal);
+
+  color: var(--color-4);
   margin-bottom: 20px;
+}
+
+.header-skil h2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-skil p {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.icons-skil {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
   justify-content: center;
-  font-weight: bold;
-  color: var(--color-4);
+  flex-wrap: wrap;
 }
 
-.persona-info {
-  width: 60%;
-  margin: 20px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  border-radius: 10px;
-}
-
-.profile-picture img {
-  width: 200px;
-}
-
-.text {
-  text-align: justify;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.info-data {
+.icon-tec {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
   display: flex;
-  align-items: start;
-  font-size: 17px;
-  margin: 10px 0;
-}
-
-.info-data a {
-  color: var(--color-6);
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover,
-a:active {
-  font-weight: bolder;
-}
-
-.information-title {
-  font-weight: bolder;
-  margin-right: 5px;
-}
-
-.description {
-  margin: 0 20px;
-}
-
-.cv-button button {
-  width: 200px;
-  height: 30px;
-  margin-top: 15px;
-  border: 2px solid var(--color-6);
-  cursor: pointer;
-  font-size: 15px;
-  font-style: italic;
-  color: var(--color-6);
-  background-color: transparent;
-}
-
-.cv-button button:hover {
-  transform: scale(1.1);
-  transition: 1s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   border: 2px solid var(--color-4);
-  color: var(--color-4);
-  background-color: var(--color-6);
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-tec h2 {
+  font-size: 34px;
+}
+
+.icon-tec p {
+  font-size: 18px;
+}
+
+.icon-tec:hover {
+  transform: scale(1.1);
+  text-shadow: var(--color-6) 0px 0px 15px;
+  border-color: var(--color-6);
 }

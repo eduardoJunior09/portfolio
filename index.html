@@ -24,7 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/mobile-style.css">
+    <link rel="stylesheet" href="style/mobile-style.css" />
   </head>
   <body>
     <nav>
@@ -32,15 +32,15 @@
         <p>EJ.<span>Dev</span></p>
       </div>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skil</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li>Habilidades</li>
         <li>Projects</li>
         <li>Contact</li>
       </ul>
     </nav>
 
-    <header>
+    <header id="home">
       <div class="wallpaper">
         <img src="img/fundo.jpg" alt="" width="500px" />
       </div>
@@ -51,8 +51,16 @@
           <p class="text-dev">Desenvolvedor</p>
         </div>
 
-        <div class="media-icons">
-          <div class="circle-icon">
+        <div class="button-icon">
+          <button>
+            <a
+              href="https://github.com/eduardoJunior09?tab=overview&from=2024-01-01&to=2024-01-27"
+              target="_blank"
+              >Visitar GitHub <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </button>
+          <!--
+ <div class="circle-icon">
             <i class="icons fa-brands fa-github"></i>
           </div>
           <div class="circle-icon">
@@ -64,19 +72,22 @@
           <div class="circle-icon">
             <i class="icons fa-brands fa-instagram"> </i>
           </div>
+          -->
         </div>
       </div>
     </header>
 
     <main>
-      <div class="about">
+      <div class="about" id="about">
         <h2>Sobre Mim</h2>
       </div>
-    <div class="persona-info">
+      <div class="persona-info">
         <div class="profile-picture">
           <img src="img/perfil.jpg" alt="" />
           <div class="cv-button">
-            <button> <i class="fa fa-cloud-download" aria-hidden="true"></i> Currículo</button>
+            <button>
+              <i class="fa fa-cloud-download" aria-hidden="true"></i> Currículo
+            </button>
           </div>
         </div>
         <div class="description">
@@ -100,7 +111,10 @@
             </div>
             <div class="info-data">
               <p class="information-title">Graduação:</p>
-              <p>Sistemas de Informação <a href="http://www.uesb.br/" target="_blank">(UESB)</a></p>
+              <p>
+                Sistemas de Informação
+                <a href="http://www.uesb.br/" target="_blank">(UESB)</a>
+              </p>
             </div>
             <div class="info-data">
               <p class="information-title">Email:</p>
@@ -112,11 +126,69 @@
     </main>
 
     <div class="container-skil">
-      <header class="header-skil">
-        <h2>Habilidades</h2>
-      </header>
-     <div class="applications-data"></div>
-     <div class="tools"></div>
+      <div class="header-skil">
+        <h2>Skills</h2>
+        <p>
+          Seja bem-vindo à seção Skills. Aqui estão as principais tecnologias
+          que utilizo, algumas com uma base mais sólida e outras com
+          conhecimento básico.
+        </p>
+      </div>
+      <div class="icons-skil">
+        <div class="icon-tec">
+          <h2><i class="fa-brands fa-html5"></i></h2>
+          <p>HTML 5</p>
+        </div>
+
+        <div class="icon-tec">
+          <h2><i class="fa-brands fa-css3-alt"></i></h2>
+          <p>CSS 3</p>
+        </div>
+
+        <div class="icon-tec">
+          <h2><i class="fa-brands fa-js"></i></h2>
+          <p>JavaScript</p>
+        </div>
+
+        <div class="icon-tec">
+          <h2><i class="fa-brands fa-java"></i></h2>
+          <p>Java</p>
+        </div>
+
+        <div class="icon-tec">
+          <h2><i class="fa-solid fa-database"></i></h2>
+          <p>Dados</p>
+        </div>
+
+        <div class="icon-tec">
+          <h2><i class="fa-brands fa-github"></i></h2>
+          <p>GitHub</p>
+        </div>
+
+        <div class="icon-tec">
+          <h2><i class="fa-brands fa-git-alt"></i></h2>
+          <p>Git</p>
+        </div>
+
+        <div class="icon-tec">
+          <h2><i class="fa-brands fa-figma"></i></h2>
+          <p>Figma</p>
+        </div>
+      </div>
+      <section>
+        <div class="">
+          <h2>Projetos</h2>
+          <p>
+            Esta seção destina-se à apresentação de alguns projetos. Para
+            conhecer mais, basta acessar o
+            <a
+              href="https://github.com/eduardoJunior09?tab=overview&from=2024-01-01&to=2024-01-27"
+              target="_blank"
+              >GitHub</a
+            >.
+          </p>
+        </div>
+      </section>
     </div>
   </body>
 </html>
