@@ -4,27 +4,39 @@
   height: auto;
   margin-top: 40px;
   font-family: var(--font-principal);
+  padding: 20px; /* Adição de padding para espaçamento interno */
 }
 
 /* Estilo para o título da seção "Sobre Mim" */
 .about {
   margin-bottom: 20px;
   color: var(--color-4);
+  font-size: 24px; /* Adição de tamanho de fonte */
 }
 
 /* Estilo para a seção de informações pessoais */
 .persona-info {
-  width: 60%;
+  width: 80%; /* Ajuste da largura */
   margin: 20px auto;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 20px; /* Adição de espaçamento entre as colunas */
   border-radius: 10px;
 }
 
 /* Estilo para a imagem de perfil */
+.profile-picture {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .profile-picture img {
-  width: 200px;
+  width: 100%; /* Ajuste para ocupar 100% da largura do contêiner */
+  max-width: 200px; /* Limitação do tamanho máximo da imagem */
+  border-radius: 50%; /* Transformação da imagem em uma forma circular */
 }
 
 /* Estilo para o texto justificado */
@@ -37,7 +49,7 @@
 /* Estilo para dados de informação */
 .info-data {
   display: flex;
-  align-items: start;
+  align-items: center; /* Ajuste para centralizar verticalmente */
   font-size: 17px;
   margin: 10px 0;
 }
@@ -47,7 +59,7 @@
   color: var(--color-6);
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
+  margin-left: 5px; /* Adição de margem entre o texto e o link */
 }
 
 /* Efeito hover para links */
@@ -67,24 +79,3 @@
   margin: 0 20px;
 }
 
-/* Estilo para o botão do currículo */
-.cv-button button {
-  width: 200px;
-  height: 30px;
-  margin-top: 15px;
-  border: 2px solid var(--color-6);
-  cursor: pointer;
-  font-size: 15px;
-  font-style: italic;
-  color: var(--color-6);
-  background-color: transparent;
-}
-
-/* Efeito hover para o botão do currículo */
-.cv-button button:hover {
-  transform: scale(1.1);
-  transition: 1s ease-in-out;
-  border: 2px solid var(--color-4);
-  color: var(--color-4);
-  background-color: var(--color-6);
-}

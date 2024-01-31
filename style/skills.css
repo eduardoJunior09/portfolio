@@ -1,62 +1,60 @@
-
 /*Habilidades*/
 .container-skil {
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    margin: 50px auto;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .header-skil {
-    font-family: var(--font-principal);
-  
-    color: var(--color-4);
-    margin-bottom: 20px;
-  }
-  
-  .header-skil p {
-    margin-top: 15px;
-    font-size: 18px;
-    text-align: center;
-  }
-  
-  .icons-skil {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .icon-tec {
-    margin: 10px;
-    width: 120px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    border: 2px solid var(--color-4);
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .icon-tec h2 {
-    font-size: 34px;
-  }
-  
-  .icon-tec p {
-    font-size: 18px;
-  }
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 50px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-  .icon-tec:hover {
-    transform: scale(1.1);
-    text-shadow: var(--color-6) 0px 0px 15px;
-    border-color: var(--color-6);
-  }
-  
+.header-skil {
+  width: 80%;
+  font-family: var(--font-principal);
+  color: var(--color-4);
+  margin: 20px auto;
+}
+
+.header-skil p {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.icons-skil {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon-tec {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid var(--color-4);
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-tec h2 {
+  font-size: 34px;
+}
+
+.icon-tec p {
+  font-size: 18px;
+}
+
+.icon-tec:hover {
+  transform: scale(1.1);
+  text-shadow: var(--color-6) 0px 0px 15px;
+  border-color: var(--color-6);
+}

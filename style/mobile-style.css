@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-/*Cabeçalho*/
+  /* Cabeçalho */
   nav {
     height: 70px;
     font-size: 10px;
@@ -54,7 +54,7 @@
 }
 
 @media (max-width: 600px) {
-  /*Cabeçalho*/
+  /* Cabeçalho */
   nav {
     height: 50px;
     font-size: 10px;
@@ -143,5 +143,41 @@
   .information-title {
     font-weight: bolder;
     margin-right: 5px;
+  }
+
+  .header-skil p {
+    font-size: 15px;
+  }
+  .icon-tec {
+    width: 90px;
+    height: 90px;
+  }
+  .icon-tec h2 {
+    font-size: 30px;
+  }
+  .icon-tec p {
+    font-size: 13px;
+  }
+
+  .text-projects p {
+    font-size: 15px;
+  }
+
+  .title-text-project{
+    font-size: 16px;
+  }
+  .text-project{
+    font-size: 14px;
+  }
+  .links-project a{
+    font-size: 20px;
+  }
+
+  .text-contact p{
+    font-size: 15px;
+  }
+
+  footer{
+    font-size: 13px;
   }
 }

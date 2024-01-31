@@ -9,12 +9,13 @@
 }
 
 .text-projects {
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin: 20px auto;
 }
 
 .text-projects p {
-  margin-top: 20px;
+  margin: 30px 0;
   font-size: 18px;
   text-align: center;
 }
@@ -42,7 +43,6 @@
   padding: 10px;
   border: 2px solid var(--color-6);
   border-radius: 5px;
-
   box-shadow: var(--color-2) 0px 0px 15px;
 }
 
@@ -76,23 +76,32 @@
 .links-project {
   width: 100%;
   text-align: end;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .links-project a {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 15px;
   color: var(--color-4);
   text-decoration: none;
 }
 
-.text-projects a:hover,
-.text-projects a:active {
-  font-weight: bolder;
+.project-git {
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
 }
 
-.links-projects a:hover{
+.links-project :hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.8s ease-in-out;
   color: var(--color-6);
 }
 
-/*box-shadow: var(--color-6) 0px 0px 5px;*/
+.project-git button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.8s ease-in-out;
+  background: var(--color-6);
+}
