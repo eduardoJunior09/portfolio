@@ -50,13 +50,11 @@
 
 /* Estilo para o ícone de botão */
 .button-icon {
-  width: 100%;
   display: flex;
   margin: 25px 20px; /* Redução da margem */
 }
 
-
-.button-icon i {
-  margin-left: 10px;
+.cv-button i {
+  margin-left: 5px;
 }
 

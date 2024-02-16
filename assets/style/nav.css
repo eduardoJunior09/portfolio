@@ -39,8 +39,10 @@ nav ul {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around; /* Melhor distribuição em telas menores */
+  justify-content: flex-end; /* Melhor distribuição em telas menores */
+  gap: 20px;
   list-style-type: none;
+  margin-right: 20px;
 }
 
 /* Estilo para os itens da lista de navegação */

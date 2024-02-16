@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eduardo Júnior - Dev</title>
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,13 +36,13 @@
         <li><a href="#container-main">Sobre Mim</a></li>
         <li><a href="#container-skil">Skills</a></li>
         <li><a href="#container-project">Projects</a></li>
-        <li>Contact</li>
+        <li><a href="#container-contact">Contact</a></li>
       </ul>
     </nav>
 
     <header id="home">
       <div class="wallpaper">
-        <img src="img/fundo.jpg" alt="" width="500px" />
+        <img src="assets/img/fundo.jpg" alt="" width="500px" />
       </div>
       <div class="header-intro">
         <div class="intro-text">
@@ -69,10 +69,13 @@
       </div>
       <div class="persona-info">
         <div class="profile-picture">
-          <img src="img/perfil.jpg" alt="" />
+          <img src="assets/img/perfil.jpg" alt="" />
           <div class="cv-button">
             <button>
-              <i class="fa fa-cloud-download" aria-hidden="true"></i> Currículo
+              <a href="assets/doc/Profile (Eduardo Caetano).pdf" download>
+                Currículo
+                <i class="fa fa-cloud-download" aria-hidden="true"></i>
+              </a>
             </button>
           </div>
         </div>
@@ -177,17 +180,18 @@
         </p>
       </div>
       <div class="banner">
+        <!--Portfólio-->
         <div class="projects">
           <div class="img-project">
-            <img src="img/temp-pomodoro.jpeg" alt="imagem ilustrativa" />
+            <img src="assets/img/portfolio.jpeg" alt="imagem ilustrativa" />
           </div>
           <div class="description-project">
-            <p class="title-text-project">Temporizador Pomodoro</p>
+            <p class="title-text-project">Portfólio</p>
             <p class="text-project">
-              O Temporizador Pomodoro é uma aplicação web que incorpora a
-              renomada técnica de gerenciamento de tempo, conhecida como
-              Pomodoro, desenvolvida para potencializar a eficiência e a
-              produtividade.
+              O portfólio é um projeto elaborado com o propósito de evidenciar
+              minhas habilidades e conhecimentos, além de prover informações
+              sobre mim, com o intuito de explorar oportunidades profissionais
+              futuras.
             </p>
             <div class="links-project">
               <a href=""><i class="fa-solid fa-link fa"></i></a>
@@ -195,9 +199,10 @@
             </div>
           </div>
         </div>
+        <!--Temporizador Pomodoro-->
         <div class="projects">
           <div class="img-project">
-            <img src="img/temp-pomodoro.jpeg" alt="imagem ilustrativa" />
+            <img src="assets/img/temp-pomodoro.jpeg" alt="imagem ilustrativa" />
           </div>
           <div class="description-project">
             <p class="title-text-project">Temporizador Pomodoro</p>
@@ -208,37 +213,58 @@
               produtividade.
             </p>
             <div class="links-project">
-              <a href=""><i class="fa-solid fa-link fa"></i></a>
-              <a href=""><i class="fa-brands fa-github fa"></i></a>
+              <a
+                href="https://eduardojunior09.github.io/temporizador-pomodoro-js/"
+                target="_blank"
+                ><i class="fa-solid fa-link fa"></i
+              ></a>
+              <a
+                href="https://github.com/eduardoJunior09/temporizador-pomodoro-js?tab=readme-ov-file"
+                target="_blank"
+                ><i class="fa-brands fa-github fa"></i
+              ></a>
             </div>
           </div>
         </div>
+        <!--jordanShoes-JS-->
         <div class="projects">
           <div class="img-project">
-            <img src="img/temp-pomodoro.jpeg" alt="imagem ilustrativa" />
+            <img src="assets/img/jordan-shoes.jpeg" alt="imagem ilustrativa" />
           </div>
           <div class="description-project">
-            <p class="title-text-project">Temporizador Pomodoro</p>
+            <p class="title-text-project">JordanShoes</p>
             <p class="text-project">
-              O Temporizador Pomodoro é uma aplicação web que incorpora a
-              renomada técnica de gerenciamento de tempo, conhecida como
-              Pomodoro, desenvolvida para potencializar a eficiência e a
-              produtividade.
+              O JordanShoes é uma plataforma que simula de forma estática uma
+              loja virtual especializada nos prestigiados tênis Jordan,
+              produzidos pela marca Nike. Que abranje as tecnologias HTML, CSS e
+              JavaScript.
             </p>
             <div class="links-project">
-              <a href=""><i class="fa-solid fa-link fa"></i></a>
-              <a href=""><i class="fa-brands fa-github fa"></i></a>
+              <a
+                href="https://eduardojunior09.github.io/jordanShoes-JS/"
+                target="_blank"
+                ><i class="fa-solid fa-link fa"></i
+              ></a>
+              <a
+                href="https://github.com/eduardoJunior09/jordanShoes-JS"
+                target="_blank"
+                ><i class="fa-brands fa-github fa"></i
+              ></a>
             </div>
           </div>
         </div>
       </div>
       <div class="project-git">
         <button>
-          <a href="">Ver Mais</a>
+          <a
+            href="https://github.com/eduardoJunior09?tab=repositories"
+            target="_blank"
+            >Ver Mais</a
+          >
         </button>
       </div>
     </section>
-    <section class="container-contact">
+    <section id="container-contact" class="container-contact">
       <div class="text-contact">
         <h2>Contato</h2>
         <p>
@@ -247,16 +273,27 @@
       </div>
       <div class="container-icons">
         <div class="circle-icon">
-          <i class="icons fa-brands fa-github"></i>
+          <a href="https://github.com/eduardoJunior09" target="_blank">
+            <i class="icons fa-brands fa-github"></i>
+          </a>
         </div>
         <div class="circle-icon">
-          <i class="icons fa-brands fa-linkedin"></i>
+          <a
+            href="https://www.linkedin.com/in/eduardo-j%C3%BAnior-252a99235/"
+            target="_blank"
+          >
+            <i class="icons fa-brands fa-linkedin"></i>
+          </a>
         </div>
         <div class="circle-icon">
-          <i class="icons fa-regular fa-envelope"></i>
+          <a href="https://is.gd/uhEhtJ" target="_blank">
+            <i class="icons fa-regular fa-envelope"></i>
+          </a>
         </div>
         <div class="circle-icon">
-          <i class="icons fa-brands fa-instagram"> </i>
+          <a href="https://www.instagram.com/junior_Ec1/" target="_blank">
+            <i class="icons fa-brands fa-instagram"> </i>
+          </a>
         </div>
       </div>
     </section>

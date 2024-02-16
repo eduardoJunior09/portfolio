@@ -34,7 +34,12 @@
   font-size: 30px;
 }
 
-.circle-icon:hover {
+.circle-icon a {
+  text-decoration: none;
+  color: var(--color-4);
+}
+
+.circle-icon a:hover {
   transform: scale(1.1);
   transition: 0.8s ease-in-out;
   color: var(--color-6);

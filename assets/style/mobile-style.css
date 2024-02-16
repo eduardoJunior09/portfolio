@@ -103,6 +103,10 @@
     font-size: 25px;
   }
 
+  .button-icon {
+    justify-content: center;
+  }
+
   /* MAIN */
   .about {
     font-size: 15px;
@@ -163,21 +167,21 @@
     font-size: 15px;
   }
 
-  .title-text-project{
+  .title-text-project {
     font-size: 16px;
   }
-  .text-project{
+  .text-project {
     font-size: 14px;
   }
-  .links-project a{
+  .links-project a {
     font-size: 20px;
   }
 
-  .text-contact p{
+  .text-contact p {
     font-size: 15px;
   }
 
-  footer{
+  footer {
     font-size: 13px;
   }
 }
