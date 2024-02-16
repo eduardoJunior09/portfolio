@@ -8,7 +8,7 @@
 - JavaScript
 - Figma
 
-<h3>Disponível em:</h3>
+<h3>Disponível em: https://eduardojunior09.github.io/portfolio/</h3>
 
 <h3>Interface:</h3>
 
